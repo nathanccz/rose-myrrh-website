@@ -9,23 +9,21 @@ import ButtonCallUs from "~/components/ButtonCallUs.astro";
 import Article from "~/components/Article.astro";
 
 // Images
-import PizzaHero from "~/assets/images/pizza-hero.png";
+import CafeHero from "~/assets/images/about-cafe-interior.jpg";
 ---
 
 <Layout>
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-				<Badge title="il ristorante italiana" />
-				<h1 class="font-black">Real Italian food in a real Italian restaurant...</h1>
+				<Badge title="Hand-crafted Delicacies" />
+				<h1 class="font-black">A Place to Slow Down & Savor the Moment...</h1>
 
 				<p>
-					Experience the taste of Italy with our authentic dishes made from the finest ingredients. Indulge in
-					our wide variety of pizzas, pastas, and desserts, all crafted with love and tradition. Whether
-					you're dining in or taking out, we promise a memorable culinary experience.
+					Rose + Myrrh is a quiet retreat tucked just off the street—a space filled with sunlight, the scent of fresh bread, and the gentle hum 
+					of espresso machines. Guests can expect handcrafted pastries, seasonal cakes, and thoughtfully brewed drinks, all served in a warm, softly 
+					rustic setting. 
 				</p>
-
-				<span class="text-brand-green font-medium">✔ We also deliver</span>
 
 				<div class="mt-8 flex items-center gap-x-8">
 					<Button url="/book">Book now</Button>
@@ -34,8 +32,8 @@ import PizzaHero from "~/assets/images/pizza-hero.png";
 			</div>
 			<div slot="hero-content-right">
 				<Picture
-					class:list={"mx-auto"}
-					src={PizzaHero}
+					class:list={"mx-auto rounded-4xl"}
+					src={CafeHero}
 					height={600}
 					formats={["avif", "webp"]}
 					alt="A description of my image."
@@ -48,39 +46,48 @@ import PizzaHero from "~/assets/images/pizza-hero.png";
 
 	<Section class:list={'bg-white'}>
 		<Article>
-			<h2>Welcome to AstroPie</h2>
+			<h2>Welcome to Rose + Myrrh</h2>
 			<p>
-				Nestled in the heart of the city, <strong>AstroPie</strong> offers an authentic Italian dining experience
-				like no other. From the moment you step through our doors, you'll be transported to the vibrant streets of
-				Italy, where good food and great company are at the center of life.
+				Located in the heart of Southern California, Rose + Myrrh reflects the best of SoCal living—laid-back, 
+				intentional, and full of flavor. We draw inspiration from the region’s sunlit mornings, farmers’ markets, 
+				and diverse culinary roots to craft a space that feels both grounded and transportive.
 			</p>
 
 			<h3>Our Story</h3>
 			<p>
-				Founded in <em>1998</em>, our family-owned restaurant has always been a labor of love. Inspired by the
-				recipes passed down through generations, we bring the <u>rich culinary heritage</u> of Italy to your plate.
-				Every dish tells a story, and every meal is a celebration of flavor.
+				Rose + Myrrh began as a weekend ritual—just one baker, one stove, and a growing circle of neighbors hungry 
+				for something that felt homemade. What started with cinnamon rolls on Saturdays soon bloomed into a full menu 
+				of slow-fermented pastries, floral cakes, and cozy drinks. We’re still baking in small batches and pouring every 
+				coffee by hand, the way it all began.
 			</p>
 
 			<h3>Our Philosophy</h3>
-			<blockquote>"The secret ingredient is always love."</blockquote>
+			<blockquote>"The simplest things—warm bread, soft light, a quiet morning—are often the most sacred."</blockquote>
 			<p>
-				At AstroPie, we believe in the simple joy of fresh ingredients, time-honored techniques, and a
-				passion for creating memorable meals. From our hand-rolled pasta to our wood-fired pizzas, every bite is
-				crafted with care.
+				At Rose + Myrrh, we believe good things take time—dough that rises slowly, flavors that unfold with patience, and 
+				spaces that invite you to linger. Our kitchen is built on quiet rituals: hands in flour, water warmed just so, the 
+				steady rhythm of care behind every bake. We don’t rush the process because we know the process is the point.
+			</p>
+			<p>
+				We draw inspiration from nature, tradition, and the beauty of the everyday. Whether it’s a simple croissant or a slice 
+				of spiced carrot cake, our goal is the same: to offer something real. Something rooted. Something that feels like home, 
+				even if it’s your first time walking through the door.
 			</p>
 
 			<h4>What Makes Us Special?</h4>
 			<ul>
-				<li><strong>Authenticity:</strong> Traditional recipes, just like Nonna used to make.</li>
-				<li><strong>Fresh Ingredients:</strong> Locally sourced produce and imported Italian staples.</li>
-				<li><strong>Warm Atmosphere:</strong> A place where everyone feels like family.</li>
+				<li><strong>Authenticity:</strong> Nothing mass-produced. Everything we serve is made with care and intention.</li>
+				<li><strong>Fresh Ingredients:</strong> We source locally and seasonally whenever possible.</li>
+				<li><strong>Ambience:</strong> Soft lighting, warm wood, and quiet corners make space for pause.</li>
+				<li><strong>Craftsmanship:</strong> Every pastry is shaped by hand, every drink brewed to order.</li>
+				<li><strong>Rooted in Ritual:</strong> We believe in the comfort of repetition: a favorite table, a familiar slice, a shared smile.</li>
+				<li><strong>Community-Driven:</strong> Inspired by neighborhood rhythms and built to be a part of them.</li>
 			</ul>
 
 			<h3>Join Us</h3>
 			<p>
-				Whether you're celebrating a special occasion or simply indulging in the pleasures of Italian cuisine, <strong
-					>AstroPie</strong
+				Whether you're celebrating a special occasion or simply indulging in the pleasures of home-made desserts, <strong
+					>Rose + Myrrh</strong
 				> is the perfect destination. <em>Come for the food, stay for the memories.</em>
 			</p>
 		</Article>
