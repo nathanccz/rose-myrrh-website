@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "author": "Jane Flores",
+    "review": "The croissants were amazing! I loved the atmosphere and the service was great."
+  },
+  {
+    "id": 2,
+    "author": "Eric Vincent",
+    "review": "The best pain au chocolat I've ever had. I can't wait to come back!"
+  },
+  {
+    "id": 3,
+    "author": "Alice Johnson",
+    "review": "The coffee was perfectly brewed and the carrot cake was delicious. I highly recommend this café."
+  },
+  {
+    "id": 4,
+    "author": "Bob Democh",
+    "review": "The assorted pastries were fantastic! I will definitely be ordering from here again."
+  },
+  {
+    "id": 5,
+    "author": "Sarah Wilson",
+    "review": "The tiramisu was to die for. I will be dreaming about it for weeks."
+  }
+]
