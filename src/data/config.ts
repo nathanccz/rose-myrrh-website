@@ -1,9 +1,9 @@
 // Global variables
 export const siteLang = 'en-US'
 export const siteCurrency = 'USD'
-export const siteDomain = 'astropie.com'
-export const siteName = 'AstroPie'
-export const siteSlogan = 'The best pies in the galaxy!'
+export const siteDomain = 'rose-and-myrrh.netlify.app'
+export const siteName = 'Rose & Myrrh'
+export const siteSlogan = 'A place to savor the little moments.'
 export const themeColor = '#FF0000'
 
 export const phone = {
