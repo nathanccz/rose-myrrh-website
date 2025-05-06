@@ -1,9 +1,9 @@
 ---
 const { contain = false } = Astro.props;
-const classname = contain ? "prose mx-auto" : "prose max-w-none";
+const classname = contain ? "prose mx-auto" : "prose max-w-none m-0";
 ---
 
 <article class={classname}>
 	<slot />
-	<div class="hidden max-w-none"></div>
+	<div class="hidden max-w-none m-0"></div>
 </article>
