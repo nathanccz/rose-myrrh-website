@@ -4,7 +4,7 @@ export const siteCurrency = 'USD'
 export const siteDomain = 'rose-and-myrrh.netlify.app'
 export const siteName = 'Rose & Myrrh'
 export const siteSlogan = 'A place to savor the little moments.'
-export const themeColor = '#FF0000'
+export const themeColor = '#FFFFF'
 
 export const phone = {
   href: 'tel:+3105550409',
